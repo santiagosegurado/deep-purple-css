@@ -1,6 +1,6 @@
 @font-face {
     font-family: "worksans";
-    src: url(/fonts/Work_Sans/static/WorkSans-Medium.ttf);
+    src: url(fonts/Work_Sans/static/WorkSans-Medium.ttf);
 }
 
 
@@ -21,7 +21,7 @@ body {
 /*////////////////////*/
 @media (max-width: 700px) {
     body{
-        background-image: linear-gradient(rgba(62, 29, 63, 0.7), rgba(62, 29, 63, 0.7)),url(/img/Deep-Purple-Whoosh.jpg);
+        background-image: linear-gradient(rgba(62, 29, 63, 0.7), rgba(62, 29, 63, 0.7)),url(img/Deep-Purple-Whoosh.jpg);
         background-size: auto;
         background-position: center top;
     }
