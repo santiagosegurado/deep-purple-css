@@ -1,6 +1,6 @@
 @font-face {
     font-family: "worksans";
-    src: url(/fonts/Work_Sans/static/WorkSans-Medium.ttf);
+    src: url(../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
 }
 
 
@@ -12,7 +12,7 @@
 
 body {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(62, 29, 63, 0.7), rgba(62, 29, 63, 0.7)), url(/img/deep-purple-kKCF--620x349@abc.jpg);
+    background-image: linear-gradient(rgba(62, 29, 63, 0.7), rgba(62, 29, 63, 0.7)), url(../img/deep-purple-kKCF--620x349@abc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -21,6 +21,7 @@ body {
 /*////////////////////*/
 @media (max-width: 700px) {
     body {
+    
         background:rgb(62, 29, 63);
     }
 }
@@ -101,6 +102,7 @@ header a i:hover{
     position:fixed;
     right: 15px;
     top:10px;
+    z-index: 999;
 }
 
  .nav-check {
@@ -119,6 +121,7 @@ header a i:hover{
         position:absolute;
         right: 10px;
         cursor: pointer;
+        z-index: 999;
     }
 
     header nav ul{
@@ -141,7 +144,7 @@ header a i:hover{
 
     .nav-check:checked + .nav_menu {
         right:0;
-        z-index: 9999;
+        z-index: 800;
     }
 
 }
@@ -183,13 +186,23 @@ header a i:hover{
     transform: scale(1.1);
 }
 
+main > img {
+    display: none;
+}
+
 /*////////////////////*/
 @media (max-width: 700px) {
 
+
     #deepPurple{
-        margin-top: 100px;
+        margin-top: 0px;
         width: 300px;
     }
 
+    main > img {
+        margin-top: 100px;
+        display: flex;
+        
+    }
 }
 
