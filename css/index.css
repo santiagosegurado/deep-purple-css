@@ -196,13 +196,15 @@ main > img {
 
     #deepPurple{
         margin-top: 0px;
-        width: 300px;
+        width: 400px;
+        margin-left: -15px;
     }
 
     main > img {
         margin-top: 100px;
-        display: flex;
-        
+        display: block;
+        width: 330px; 
+        margin-left: 20px;
     }
 }
 
